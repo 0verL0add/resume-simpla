@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@500&family=Playpen+Sans:wght@300&family=Poppins&display=swap');
+body{
+    color: #2F4F4F;
+    background-color:Cornsilk ;
+font-size: 17px;
+font-family:'Roboto';
+font-weight: 500;
+font-style: normal;
+}
+.main{
+border-radius: 5px; 
+font-size: 20px;
+font-weight: 700;
+font-family: 'Lucida Sans', sans-serif;
+color: #808080;
+padding: auto;
+display: flex;
+}
+.main-text{
+margin-left: 20px;
+
+}
+.card{
+    margin-bottom: 10px;
+border-radius: 20px;
+padding: 21px;
+}
+
+.tabl{
+
+background-color: antiquewhite;
+}
+.hobbies{
+    padding-left: 0px;
+    background-color: Gainsboro;
+
+}
+.other {
+background-color: LavenderBlush;
+}
+.ex h2{
+   
+    text-align: center;
+}
+.form label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+.form input,
+.form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: solid 1px grey;
+    color: black;
+    padding: 5px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.form2 .form{
+    display: inline-block;
+   margin-right: 20px;
+   width: 50%;
+}
+
+
+
+
+.form2 .form:last-child{
+    margin-right: 0px;
+}
+.form2{
+margin-bottom: 7px;
+display: flex;
+}
+@media(max-width:700px)
+{
+    .form2{
+        display: block;
+       margin-bottom: 10px;
+      
+    }
+    .form label{
+        font-size: 18px;
+    }
+    .form2 .form{
+       width: 100%;
+       margin-bottom: 10px;
+    }
+}
+@media(max-width:700px){
+    .main{
+        font-family:Georgia;
+        background-color: aliceblue;
+        font-size: 14px;
+        padding: 5px;
+        margin: 5px;
+        display: block;
+        text-align: center;
+    }
+}
